@@ -43,8 +43,9 @@ const WarmachineModule = (()=>{
         localStorage.setItem('purchasedWarMachines', JSON.stringify(purchasedWarMachines));
     };
 
-    // money "spending" sound
+    // money & failure sound
     const moneySound = new Audio('audio/money-sound.mp3');
+    const failureSound = new Audio('audio/failure-sound.mp3');
 
     const buyWarMachine = (machineId, resources) => {
         const machine = getWarMachineById(machineId);
@@ -63,6 +64,7 @@ const WarmachineModule = (()=>{
             console.log(`Successfully bought ${machine.name}.`);
             moneySound.play();
         } else {
+            failureSound.play();
             alert(`Not enough gold to buy ${machine.name}.`);
         }
     };

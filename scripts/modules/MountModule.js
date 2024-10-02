@@ -43,8 +43,9 @@ const MountModule = (()=>{
         localStorage.setItem('purchasedMounts', JSON.stringify(purchasedMounts));
     };
 
-    // money "spending" sound
+    // money & failure sound
     const moneySound = new Audio('audio/money-sound.mp3');
+    const failureSound = new Audio('audio/failure-sound.mp3');
 
     const buyMount = (mountId, resources) => {
         const mount = getMountById(mountId);
@@ -62,6 +63,7 @@ const MountModule = (()=>{
             console.log(`Successfully bought ${mount.name}.`);
             moneySound.play();
         } else {
+            failureSound.play();
             alert(`Not enough gold to buy ${mount.name}.`);
         }
     };

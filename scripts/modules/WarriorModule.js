@@ -64,8 +64,9 @@ const WarriorModule = (()=>{
         localStorage.setItem('purchasedWarriors', JSON.stringify(purchasedWarriors));
     };
 
-    // money "spending" sound
+    // money & failure sound
     const moneySound = new Audio('audio/money-sound.mp3');
+    const failureSound = new Audio('audio/failure-sound.mp3');
 
     const buyWarrior = (warriorId, resources) => {
         const warrior = getWarriorById(warriorId);
@@ -83,6 +84,7 @@ const WarriorModule = (()=>{
             console.log(`Successfully bought ${warrior.name}.`);
             moneySound.play();
         } else {
+            failureSound.play();
             alert(`Not enough gold to buy ${warrior.name}.`);
         }
     };
