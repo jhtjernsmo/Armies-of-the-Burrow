@@ -63,7 +63,7 @@ const showMounts = () => {
             <article class="army-box col-xs-6 col-sm-6 col-md-4">
                 <h3>${mount.name}</h3>
                 <img src="images/${mount.image}" alt="${mount.name} - Image by ChatGPT">
-                <button data-id="${mount.id}" id="mount-buy" class="button button--buy">Buy Warrior ${mount.priceGold}</button>
+                <button data-id="${mount.id}" id="mount-buy" class="button button--buy">Buy Mount ${mount.priceGold}</button>
             </article>
         `
     });
@@ -98,7 +98,7 @@ const showMachines = () => {
             <article class="army-box col-xs-6 col-sm-6 col-md-4">
                 <h3>${machine.name}</h3>
                 <img src="images/${machine.image}" alt="${machine.name} - Image by ChatGPT">
-                <button data-id="${machine.id}" class="button button--buy" id="war-machine-buy">Buy Warrior ${machine.priceGold}</button>
+                <button data-id="${machine.id}" class="button button--buy" id="war-machine-buy">Buy Machine ${machine.priceGold}</button>
             </article>
         `
     });
