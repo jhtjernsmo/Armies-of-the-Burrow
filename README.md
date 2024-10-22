@@ -2,6 +2,8 @@
 
 This project was developed as part of a university assignment with a focus on building a browser-based strategy game using modern web development practices. The primary learning objectives were centered around semantic coding, proper CSS organization, and JavaScript techniques to ensure a clean, maintainable, and scalable codebase.
 
+# Link to project site: https://67179c68a8981b0b091ae4fa--armiesoftheburrow.netlify.app/
+
 ## Key Task Requirements
 
 1. **Semantic Coding**:
