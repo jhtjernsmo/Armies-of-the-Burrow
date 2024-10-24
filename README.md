@@ -4,6 +4,8 @@ This project was developed as part of a university assignment with a focus on bu
 
 Link to project site: https://67179c68a8981b0b091ae4fa--armiesoftheburrow.netlify.app/
 
+abcdef
+
 ## Key Task Requirements
 
 1. **Semantic Coding**:
