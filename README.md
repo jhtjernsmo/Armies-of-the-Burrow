@@ -1,4 +1,3 @@
-### Netlify: 
 ![Netlify Status](https://api.netlify.com/api/v1/badges/9be77b1a-4d52-483c-a954-893b18def333/deploy-status)
 
 # University Project: Armies of the Burrow
