@@ -1,6 +1,7 @@
 import ResourceModule from './modules/ResourceModule.js';
 import myResources from './utilities/myResources.js';
 
+
 const mineResourceImage = document.querySelector(".mine-resource-image");
 const woodResourceImage = document.querySelector(".wood-resource-image");
 

@@ -3,6 +3,7 @@ import MountModule from "./modules/MountModule.js";
 import WarmachineModule from "./modules/WarmachineModule.js";
 import myResources from "./utilities/myResources.js";
 import ResourceModule from "./modules/ResourceModule.js";
+import showFooter from "./utilities/footer.js";
 
 const warriorSection = document.querySelector("#warrior-section");
 const mountSection = document.querySelector("#mount-section");
@@ -123,4 +124,5 @@ const showMachines = () => {
 showMachines();
 showWarriors();
 showMounts();
+showFooter();
 myResources();
