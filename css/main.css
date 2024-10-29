@@ -172,7 +172,6 @@ body {
     transform: scale(1.5);
     transition: all ease-in-out 0.25s;
     cursor: pointer;
-    box-shadow: 0 0 20px 10px rgba(135, 206, 235, 0.7);
     border-radius: 50%;
 }
 
