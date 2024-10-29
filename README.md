@@ -1,8 +1,10 @@
+![Netlify Status](https://api.netlify.com/api/v1/badges/9be77b1a-4d52-483c-a954-893b18def333/deploy-status)
+
 # University Project: Armies of the Burrow
 
 This project was developed as part of a university assignment with a focus on building a browser-based strategy game using modern web development practices. The primary learning objectives were centered around semantic coding, proper CSS organization, and JavaScript techniques to ensure a clean, maintainable, and scalable codebase.
 
-Link to project site: https://67179c68a8981b0b091ae4fa--armiesoftheburrow.netlify.app/
+Link to project site: https://armiesoftheburrow.netlify.app/
 
 ## Key Task Requirements
 
