@@ -46,7 +46,7 @@ const showPurchasedMounts = () => {
         htmlTxt += `
             <article class="army-box col-xs-6 col-sm-6 col-md-4">
                 <h3>${mount.name}</h3>
-                <img src="images/${mount.image}" alt="${mount.name}">
+                <img src="images/${mount.image}" alt="${mount.name}" loading="lazy">
             </article>
         `;
     });
@@ -68,7 +68,7 @@ const showPurchasedWarMachines = () => {
         htmlTxt += `
             <article class="army-box col-xs-6 col-sm-6 col-md-4">
                 <h3>${machine.name}</h3>
-                <img src="images/${machine.image}" alt="${machine.name}">
+                <img src="images/${machine.image}" alt="${machine.name}" loading="lazy">
             </article>
         `;
     });
